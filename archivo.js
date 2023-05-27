@@ -23,14 +23,14 @@ function encriptar() {
   ocultarAdelante();
   var area = recuperarTexto();
   resultado.textContent = encriptarTexto(area);
-  areaTexto.value = ""; // Borrar el contenido del área de texto
+  areaTexto.value = "";
 }
 
 function desencriptar() {
   ocultarAdelante();
   var area = recuperarTexto();
   resultado.textContent = desencriptarTexto(area);
-  areaTexto.value = ""; // Borrar el contenido del área de texto
+  areaTexto.value = "";
 }
 
 function recuperarTexto() {
